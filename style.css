@@ -1,0 +1,184 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/******************************* index.html-Start *******************************/
+
+.masthead {
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+    text-shadow:  2px 2px 2px rgba(0,0,0,.2);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.color-overlay {
+    position: absolute;
+    width: 100%; 
+    height: 20%;
+}
+.color-overlay1 {
+    position: absolute;
+    width: 100%; 
+    height: 35%;
+    display: flex;
+    
+}
+
+.color-overlay1 a {
+padding: 20px;
+}
+
+
+@media screen and (max-width: 825px) {
+    .masthead {
+    min-height: 30vh;
+}
+    h1 {
+    font-size: 1.525rem + 3.3vw;
+}
+    .color-overlay {
+    height: 35%;
+}
+    object {
+        width: 150px;
+    }
+   .hamburger {
+    margin-left: 35vh;
+   }
+}
+
+/******************************* index.html-End *******************************/
+
+
+/******************************* personal.html-Start *******************************/
+
+
+.personal-masthead {
+    background-size: cover;
+    min-height: 40vh;
+    position: relative;
+    color: black;
+    text-shadow:  2px 2px 2px rgba(0,0,0,.2);
+}
+
+.personal-color-overlay {
+    position: absolute;
+    width: 100%; 
+    height:  65%;
+
+}
+.personal-color-overlay1 {
+    position: absolute;
+    width: 100%; 
+    height: 150%;
+}
+
+
+/******************************* personal.html-End *******************************/
+
+/******************************* photowalk.html-Start *******************************/
+
+
+.photowalk-masthead {
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+    text-shadow:  2px 2px 2px rgba(0,0,0,.2);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.photowalk-color-overlay {
+    position: absolute;
+    width: 100%; 
+    height: 20%;
+}
+.photowalk-color-overlay1 {
+    position: absolute;
+    width: 100%; 
+    height: 35%;
+    display: flex;
+    
+}
+
+.photowalk-color-overlay1 a {
+padding: 20px;
+}
+
+
+
+/* @media screen and (max-width: 825px) {
+    .photowalk-masthead {
+    min-height: 40vh;
+}
+    .photowalk-color-overlay {
+    height: 65%;
+}
+    .photowalk-color-overlay1 {
+    height: 135%;
+}
+h1 {
+    font-size: 1.525rem + 3.3vw;
+}
+} */
+
+
+
+@media screen and (max-width: 825px) {
+    .photowalk-masthead {
+    min-height: 30vh;
+}
+h1 {
+    font-size: 1.525rem + 3.3vw;
+}
+    .photowalk-color-overlay {
+    height: 35%;
+}
+    object {
+        width: 150px;
+    }
+   .photowalk-hamburger {
+    margin-left: 35vh;
+   }
+}
+
+/******************************* photowalk.html-End *******************************/
+
+
+/******************************* About's start  ********************************* */
+
+.md-p {
+    color:white; 
+    position: absolute;
+    display: flex;
+    left:80%;
+    top: -95px;
+    font-size: 70px;
+}
+
+.lg-p {
+    color:white; 
+    position: absolute;
+    display: flex;
+    left:94%;
+    top: -50px;
+    font-size: 80px
+}
+
+.sm-p {
+    color:white; 
+    position: absolute;
+    display: flex;
+    left:100%;
+    top: -60px;
+    font-size: 34px
+}
