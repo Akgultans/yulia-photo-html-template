@@ -10,6 +10,7 @@ body {
   position: relative;
   color: white;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  background-position-x: center;
 }
 
 h1 {
@@ -60,6 +61,7 @@ h1 {
   position: relative;
   color: black;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  background-position-x: center;
 }
 
 .personal-color-overlay {
@@ -83,6 +85,7 @@ h1 {
   position: relative;
   color: white;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  background-position-x: center;
 }
 
 h1 {
@@ -105,21 +108,6 @@ h1 {
   padding: 20px;
 }
 
-/* @media screen and (max-width: 825px) {
-    .photowalk-masthead {
-    min-height: 40vh;
-}
-    .photowalk-color-overlay {
-    height: 65%;
-}
-    .photowalk-color-overlay1 {
-    height: 135%;
-}
-h1 {
-    font-size: 1.525rem + 3.3vw;
-}
-} */
-
 @media screen and (max-width: 825px) {
   .photowalk-masthead {
     min-height: 30vh;
@@ -139,6 +127,57 @@ h1 {
 }
 
 /******************************* photowalk.html-End *******************************/
+
+/******************************* photowalk-personal.html-Start *******************************/
+
+.photowalk-personal-masthead {
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  background-position-x: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.photowalk-personal-color-overlay {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+}
+.photowalk-personal-color-overlay1 {
+  position: absolute;
+  width: 100%;
+  height: 35%;
+  display: flex;
+}
+
+.photowalk-personal-color-overlay1 a {
+  padding: 20px;
+}
+
+@media screen and (max-width: 825px) {
+  .photowalk-personal-masthead {
+    min-height: 30vh;
+  }
+  h1 {
+    font-size: 1.525rem + 3.3vw;
+  }
+  .photowalk-personal-color-overlay {
+    height: 35%;
+  }
+  object {
+    width: 150px;
+  }
+  .photowalk-personal-hamburger {
+    margin-left: 35vh;
+  }
+}
+
+/******************************* photowalk-personal.html-End *******************************/
 
 /******************************* About's start  ********************************* */
 
@@ -196,7 +235,7 @@ h1 {
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1440px) {
   .portfolio-img-p {
     position: absolute;
     top: 90%;
